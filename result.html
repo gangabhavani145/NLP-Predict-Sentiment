@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}"> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="prediction">
+
+	{% if prediction == 1%}
+	<h2 style="color:green;">Great! This is a POSITIVE review!</h2>
+	{% elif prediction == 0%}
+	<h2 style="color:blue;">Oops! This is a NEGATIVE review!</h2>
+	{% endif %}
+
+	</div>
+
+</body>
+</html>

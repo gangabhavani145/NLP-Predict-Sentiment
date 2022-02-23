@@ -1,0 +1,31 @@
+/* body{
+  overflow-x: hidden;
+} */
+
+.login{
+  text-align: center;
+  font-size: 30px;
+  color: #0f3057;
+}
+
+textarea::placeholder {
+  font-size: 20px;
+}
+
+.btn{
+  background-color: #0f3057;
+  border-color: #0f3057;
+  font-size: 20px;
+}
+
+.btn:hover{
+  background-color: #0f3057;
+  opacity: 0.9;
+  color: #fff;
+}
+
+.prediction{
+  text-align: center;
+  font-size: 30px;
+  color: #0f3057;
+}
